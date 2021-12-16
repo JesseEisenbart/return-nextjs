@@ -9,7 +9,7 @@ import Meta from '../components/Meta'
 export default function Home() {
   return (
     <div >
-      <Meta siteTitle="Home" title="Return" description="Return is an art driven soul's like, sidescrolling adventure set in the apocalyptic rebirth of your home planet, where your only hope of survival is to explore the unfamiliar landscape."/>
+      <Meta siteTitle="Home" title="Return" description="Return is an art driven, sidescrolling adventure set in the apocalyptic rebirth of your home planet, where your only hope of survival is to explore the unfamiliar landscape."/>
       <Hero />
       <Main />
       <Footer />

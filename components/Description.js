@@ -5,7 +5,7 @@ const Description = () => {
                 <div className="title-center">
                     <h1>ABOUT</h1>
                 </div>
-                <h2>{"Return is a soul's like, sidescrolling adventure set in the apocalyptic rebirth of your home planet, where your only hope of survival is to explore the unfamiliar landscape."}</h2>
+                <h2>{"Return is an art driven, sidescrolling adventure set in the apocalyptic rebirth of your home planet, where your only hope of survival is to explore the unfamiliar landscape."}</h2>
                 <div className="columntext">
                     <p>
                         {"The planet's ecosystems are shutting down, natural resources are scarce, chaos and wars rage as remaining inhabitants reach for the stars."}   
