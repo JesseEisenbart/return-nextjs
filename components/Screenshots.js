@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer"
 
+
 const Images = () => {
     const [currentImage, setCurrentImage] = useState(0);
     const [isViewerOpen, setIsViewerOpen] = useState(false);
@@ -30,7 +31,7 @@ const Images = () => {
     <div className="feature-container"> 
       {images.map((src, index) => (
         <div className="img-container">
-          <img
+          <Image
             src={src}
             onClick={() => openImageViewer(index)}
             key={index}
