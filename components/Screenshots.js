@@ -30,11 +30,10 @@ const Images = () => {
   return (
     <div className="feature-container"> 
       {images.map((src, index) => (
-        <div className="img-container">
-          <Image
+        <div className="img-container" key={index}>
+          <img
             src={src}
             onClick={() => openImageViewer(index)}
-            key={index}
             alt=""
             className={`img-feature ${index % 2 === 0 ? "left" : ""}`}
           />

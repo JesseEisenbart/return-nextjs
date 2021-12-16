@@ -29,11 +29,10 @@ const PresskitImages = () => {
   return (
     <div className="feature-container"> 
       {images.map((src, index) => (
-        <div className="img-container">
+        <div className="img-container" key={index}>
           <a href={src} rel="noreferrer" target="_blank">
             <img
               src={src}
-              key={index}
               alt=""
               className={`img-feature ${index % 2 === 0 ? "left" : ""}`}
             />

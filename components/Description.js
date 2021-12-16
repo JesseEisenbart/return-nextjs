@@ -5,10 +5,10 @@ const Description = () => {
                 <div className="title-center">
                     <h1>ABOUT</h1>
                 </div>
-                <h2>Return is a soul's like, sidescrolling adventure set in the apocalyptic rebirth of your home planet, where your only hope of survival is to explore the unfamiliar landscape.</h2>
+                <h2>{"Return is a soul's like, sidescrolling adventure set in the apocalyptic rebirth of your home planet, where your only hope of survival is to explore the unfamiliar landscape."}</h2>
                 <div className="columntext">
                     <p>
-                        The planet’s ecosystems are shutting down, natural resources are scarce, chaos and wars rage as remaining inhabitants reach for the stars.   
+                        {"The planet's ecosystems are shutting down, natural resources are scarce, chaos and wars rage as remaining inhabitants reach for the stars."}   
                         <br></br>
                         <br></br>
                         After scraping up enough money for a ship, you leave behind your old life in search of a new one on the colonies. You set the ship to autopilot and prepare for cryo-sleep.
