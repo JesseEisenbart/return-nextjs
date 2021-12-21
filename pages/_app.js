@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Component {...pageProps} />
       <Script src="https://kit.fontawesome.com/8c3026dacb.js"/>
-      <Script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/696318c11b60fd78e724b4029/124d4281a6895de7eeaf6e631.js");</Script>
+      <Script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,&quot;script&quot;,&quot;https://chimpstatic.com/mcjs-connected/js/users/696318c11b60fd78e724b4029/124d4281a6895de7eeaf6e631.js&quot;);</Script>
     </Layout>
   )
 }
