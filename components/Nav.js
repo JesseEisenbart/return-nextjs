@@ -15,7 +15,7 @@ const Nav = () => {
                 <li className="nav-left"><a className="nav-link" href="https://deadunicorngames.itch.io/" target="blank">DEAD UNICORN</a></li>
                 <li><Link href="/"><a className="nav-link">HOME</a></Link></li>
                 <li><Link href="/presskit"><a className="nav-link">PRESS KIT</a></Link></li>
-                <li><a className="nav-link" href="https://deadunicorngames.itch.io/return-pre-alpha/devlog" target="blank">DEMO</a></li>
+                <li><a className="nav-link" href="https://deadunicorngames.itch.io/return-alpha" target="blank">DEMO</a></li>
                 <li><a className="nav-link" href="https://deadunicorngames.itch.io/return-pre-alpha/devlog" target="blank">DEVELOPMENT BLOG</a></li>
             </ul>
             <div className="mobile-toggle-container">
@@ -25,7 +25,7 @@ const Nav = () => {
                 <li onClick={toggleOpen}><a className="nav-link" href="https://deadunicorngames.itch.io/" target="blank">DEAD UNICORN</a></li>
                 <li onClick={toggleOpen}><Link href="/"><a className="nav-link">HOME</a></Link></li>
                 <li onClick={toggleOpen}><Link href="/presskit"><a className="nav-link">PRESS KIT</a></Link></li>
-                <li onClick={toggleOpen}><a className="nav-link" href="https://deadunicorngames.itch.io/return-pre-alpha/devlog" target="blank">DEMO</a></li>
+                <li onClick={toggleOpen}><a className="nav-link" href="https://deadunicorngames.itch.io/return-alpha" target="blank">DEMO</a></li>
                 <li onClick={toggleOpen}><a className="nav-link" href="https://deadunicorngames.itch.io/return-pre-alpha/devlog" target="blank">DEVELOPMENT BLOG</a></li>
             </ul>            
         </nav>

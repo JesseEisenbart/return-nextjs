@@ -58,7 +58,7 @@ const Presskit = () => {
                                 <a href="https://deadunicorngames.itch.io/return-pre-alpha/devlog" rel="noreferrer" target="_blank">Devlog</a>
                             </li>
                             <li>
-                                <a href="https://deadunicorngames.itch.io/return-pre-alpha" rel="noreferrer" target="_blank">Pre-Alpha</a>
+                                <a href="https://deadunicorngames.itch.io/return-alpha" rel="noreferrer" target="_blank">Alpha</a>
                             </li>
                         </ul>
                     </div>
