@@ -9,7 +9,7 @@ const Main = () => {
     return (
         <div className="main-container">
             <div className="main">
-                <Action text="PLAY THE DEMO!" icon="fas fa-play-circle" link="https://deadunicorngames.itch.io/return-alpha" wishlist={true}/>
+                <Action text="WISHLIST NOW!" icon="fab fa-steam" link="https://store.steampowered.com/app/1537080/Return/" wishlist={true}/>
                 {/* <Action text="WISHLIST RETURN ON STEAM!" icon="fab fa-steam" link="https://deadunicorngames.itch.io/return-pre-alpha/devlog" wishlist={true}/> */}
                 <Video />
                 <Description />
